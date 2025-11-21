@@ -8,14 +8,15 @@ The examples can be run
 * standalone (under Windows Script Host).
 
 The examples work with our sample servers and publishers. Most of them reside on the Web; OPC "Classic" servers for Windows
-are installed using the [OPC Studio Setup program](https://www.opclabs.com/download).
+are installed using the [Connectivity Software Setup program](https://www.opclabs.com/download).
 
 Useful links:
-* [OPC client and subscriber examples in the documentation](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html).
-* [OPC client and subscriber examples in VBScript on GitHub](https://github.com/OPCLabs/Examples-QuickOPC-VBScript).
-* [OPC Studio Setup program](https://www.opclabs.com/download)
-* [Getting Started with QuickOPC under COM](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/User%27s%20Guide%20and%20Reference-OPC%20Studio/webframe.html#Getting%20Started%20with%20QuickOPC%20under%20COM.html).
+* [Connectivity Software Setup program](https://www.opclabs.com/download)
 * [OPC Labs Knowledge Base](https://kb.opclabs.com).
+* [Examples in VBScript on GitHub](https://github.com/OPCLabs/Examples-ConnectivityStudio-VBScript).
+*
+* [Getting Started with QuickOPC under COM](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-ConnectivityStudio/Latest/User%27s%20Guide%20and%20Reference-Connectivity%20Software/webframe.html#Getting%20Started%20with%20QuickOPC%20under%20COM.html).
+* [QuickOPC Examples in the documentation](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-ConnectivityStudio/Latest/User%27s%20Guide%20and%20Reference-Connectivity%20Software/webframe.html#QuickOPC%20Examples.html).
 
 Need help, or missing some example? Ask us for it on our [Online Forums](https://www.opclabs.com/forum/index)!
 You do not have to own a commercial license in order to use Online Forums, 
