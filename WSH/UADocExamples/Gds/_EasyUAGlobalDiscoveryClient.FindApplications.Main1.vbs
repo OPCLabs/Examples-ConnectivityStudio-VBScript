@@ -6,7 +6,7 @@ Rem Shows how to find all registrations in the GDS.
 Rem
 Rem Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-ConnectivityStudio/Latest/examples.html .
 Rem OPC client and subscriber examples in VBScript on GitHub: https://github.com/OPCLabs/Examples-ConnectivityStudio-VBScript .
-Rem Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+Rem Missing some example? Ask us for it on our Online Forums, https://forum.opclabs.com/forum/index ! You do not have to own
 Rem a commercial license in order to use Online Forums, and we reply to every post.
 
 Option Explicit
@@ -16,8 +16,8 @@ Const UAApplicationTypes_All = 7
 ' Define which GDS we will work with.
 Dim GdsEndpointDescriptor: Set GdsEndpointDescriptor = CreateObject("OpcLabs.EasyOpc.UA.UAEndpointDescriptor")
 GdsEndpointDescriptor.UrlString = "opc.tcp://opcua.demo-this.com:58810/GlobalDiscoveryServer"
-GdsEndpointDescriptor.UserIdentity.UserNameTokenInfo.UserName = "appadmin"
-GdsEndpointDescriptor.UserIdentity.UserNameTokenInfo.Password = "demo"
+GdsEndpointDescriptor.UserIdentityInfo.UserNameTokenInfo.UserName = "appadmin"
+GdsEndpointDescriptor.UserIdentityInfo.UserNameTokenInfo.Password = "demo"
 
 ' Instantiate the global discovery client object
 Dim GlobalDiscoveryClient: Set GlobalDiscoveryClient = CreateObject("OpcLabs.EasyOpc.UA.Gds.EasyUAGlobalDiscoveryClient")
